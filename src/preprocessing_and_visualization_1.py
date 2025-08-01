@@ -24,6 +24,7 @@ print(missing_values)
 duplicated = StudentPerformance_all_features_df.duplicated().sum()
 print("\nNumber of duplicated rows:",duplicated)
 
+
 sns.boxplot(x = StudentPerformance_all_features_df['Hours_Studied'])
 plt.title('Boxplot of Hours Studied')
 plots_save_path = r"D:\Elevvo_projects\Student_Score_Prediction\outputs\Boxplot of Hours Studied.png"
